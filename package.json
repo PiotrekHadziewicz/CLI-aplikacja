@@ -1,0 +1,27 @@
+{
+  "name": "cli-aplikacja",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "start:dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PiotrekHadziewicz/CLI-aplikacja.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PiotrekHadziewicz/CLI-aplikacja/issues"
+  },
+  "homepage": "https://github.com/PiotrekHadziewicz/CLI-aplikacja#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "yargs": "^17.5.1"
+  }
+}
